@@ -8,7 +8,7 @@
 
 ## Subtract Method
 - [x] subtract returns difference of two positive numbers
-- [ ] subtract returns correct result when first number is smaller
+- [x] subtract returns correct result when first number is smaller
 - [ ] subtract returns correct result with negative numbers
 - [ ] subtract returns correct result with zero
 
