@@ -62,5 +62,17 @@ describe('Calculator', () => {
       // Assert
       expect(result).toBe(6);
     });
+
+    it('should return correct result when first number is smaller', () => {
+      // Arrange
+      const a = 3;
+      const b = 8;
+
+      // Act
+      const result = subtract(a, b);
+
+      // Assert
+      expect(result).toBe(-5);
+    });
   });
 });
