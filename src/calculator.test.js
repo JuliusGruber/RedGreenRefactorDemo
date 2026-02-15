@@ -1,4 +1,4 @@
-const { add } = require('./calculator');
+const { add, subtract } = require('./calculator');
 
 describe('Calculator', () => {
   describe('add', () => {
@@ -47,6 +47,20 @@ describe('Calculator', () => {
       expect(add(0, -3)).toBe(-3);
       // Ensure string '0' is handled as numeric zero
       expect(add('0', 5)).toBe(5);
+    });
+  });
+
+  describe('subtract', () => {
+    it('should return the difference of two positive numbers', () => {
+      // Arrange
+      const a = 10;
+      const b = 4;
+
+      // Act
+      const result = subtract(a, b);
+
+      // Assert
+      expect(result).toBe(6);
     });
   });
 });
