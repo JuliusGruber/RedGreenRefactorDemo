@@ -1,25 +1,25 @@
 # Calculator Test List
 
-## Add Operation
+## Add Method
 - [x] add returns sum of two positive numbers
 - [x] add returns sum when one number is negative
 - [x] add returns sum when both numbers are negative
 - [x] add returns correct result with zero
 
-## Subtract Operation
+## Subtract Method
 - [x] subtract returns difference of two positive numbers
-- [ ] subtract returns negative when second number is larger
-- [ ] subtract with negative numbers
+- [ ] subtract returns correct result when first number is smaller
+- [ ] subtract returns correct result with negative numbers
 - [ ] subtract returns correct result with zero
 
-## Multiply Operation
+## Multiply Method
 - [ ] multiply returns product of two positive numbers
-- [ ] multiply returns negative when one number is negative
-- [ ] multiply returns positive when both numbers are negative
-- [ ] multiply returns zero when one number is zero
+- [ ] multiply returns correct result when one number is negative
+- [ ] multiply returns correct result when both numbers are negative
+- [ ] multiply returns zero when multiplying by zero
 
-## Divide Operation
+## Divide Method
 - [ ] divide returns quotient of two positive numbers
-- [ ] divide returns decimal result for non-even division
-- [ ] divide returns negative when one number is negative
+- [ ] divide returns correct result with negative numbers
+- [ ] divide returns zero when dividing zero by a number
 - [ ] divide throws error when dividing by zero
