@@ -3,7 +3,7 @@
 ## Add Operation
 - [x] add returns sum of two positive numbers
 - [x] add returns sum when one number is negative
-- [ ] add returns sum when both numbers are negative
+- [x] add returns sum when both numbers are negative
 - [ ] add returns correct result with zero
 
 ## Subtract Operation
