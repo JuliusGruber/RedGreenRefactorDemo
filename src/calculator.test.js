@@ -37,5 +37,16 @@ describe('Calculator', () => {
       // Assert
       expect(result).toBe(-10);
     });
+
+    it('should return the correct result when adding zero', () => {
+      // Arrange & Act & Assert
+      expect(add(5, 0)).toBe(5);
+      expect(add(0, 5)).toBe(5);
+      expect(add(0, 0)).toBe(0);
+      expect(add(-3, 0)).toBe(-3);
+      expect(add(0, -3)).toBe(-3);
+      // Ensure string '0' is handled as numeric zero
+      expect(add('0', 5)).toBe(5);
+    });
   });
 });
