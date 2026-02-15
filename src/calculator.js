@@ -1,5 +1,5 @@
 function add(a, b) {
-  // TODO: implement
+  return a + b;
 }
 
 module.exports = { add };
