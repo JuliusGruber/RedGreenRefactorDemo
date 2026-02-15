@@ -1,7 +1,7 @@
 # Calculator Test List
 
 ## Add Operation
-- [ ] add returns sum of two positive numbers
+- [x] add returns sum of two positive numbers
 - [ ] add returns sum when one number is negative
 - [ ] add returns sum when both numbers are negative
 - [ ] add returns correct result with zero
