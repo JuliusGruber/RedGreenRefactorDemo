@@ -4,7 +4,7 @@
 - [x] add returns sum of two positive numbers
 - [x] add returns sum when one number is negative
 - [x] add returns sum when both numbers are negative
-- [ ] add returns correct result with zero
+- [x] add returns correct result with zero
 
 ## Subtract Operation
 - [ ] subtract returns difference of two positive numbers
