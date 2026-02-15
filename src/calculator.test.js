@@ -13,5 +13,17 @@ describe('Calculator', () => {
       // Assert
       expect(result).toBe(5);
     });
+
+    it('should return the sum when one number is negative', () => {
+      // Arrange
+      const a = -3;
+      const b = 5;
+
+      // Act
+      const result = add(a, b);
+
+      // Assert
+      expect(result).toBe(2);
+    });
   });
 });
