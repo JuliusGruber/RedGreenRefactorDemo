@@ -7,7 +7,7 @@
 - [x] add returns correct result with zero
 
 ## Subtract Operation
-- [ ] subtract returns difference of two positive numbers
+- [x] subtract returns difference of two positive numbers
 - [ ] subtract returns negative when second number is larger
 - [ ] subtract with negative numbers
 - [ ] subtract returns correct result with zero
